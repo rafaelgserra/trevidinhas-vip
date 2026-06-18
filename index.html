@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trevidinhas Modas · Grupo VIP</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#fff;color:#1a1a1a;font-family:'Inter',sans-serif;max-width:480px;margin:0 auto}
+.tv-header{text-align:center;padding:28px 24px 16px;border-bottom:0.5px solid #e5e0dc}
+.tv-logo{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#1a1a1a;margin:0}
+.tv-tagline{font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin:4px 0 0;font-weight:300}
+.tv-hero{position:relative;width:100%;aspect-ratio:3/4;overflow:hidden;background:#f5f2f0}
+.tv-hero img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.tv-hero-overlay{position:absolute;bottom:0;left:0;right:0;padding:60px 28px 32px;background:linear-gradient(to top,rgba(0,0,0,0.55) 0%,transparent 100%)}
+.tv-hero-label{font-size:10px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(255,255,255,0.75);margin:0 0 6px;font-weight:400}
+.tv-hero-title{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:500;color:#fff;margin:0;line-height:1.15}
+.tv-body{padding:32px 28px 28px}
+.tv-main-copy{font-family:'Cormorant Garamond',serif;font-size:21px;font-weight:400;color:#1a1a1a;line-height:1.45;margin:0 0 18px}
+.tv-sub-copy{font-size:13.5px;color:#555;line-height:1.7;margin:0 0 28px;font-weight:300}
+.tv-benefits{list-style:none;padding:0;margin:0 0 32px;display:flex;flex-direction:column;gap:12px}
+.tv-benefits li{display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#333;line-height:1.5;font-weight:400}
+.tv-benefits li::before{content:'';display:block;width:18px;height:18px;min-width:18px;border-radius:50%;background:#a47864;margin-top:1px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");background-size:11px;background-repeat:no-repeat;background-position:center}
+.tv-cta-btn{display:block;width:100%;background:#a47864;color:#fff;text-align:center;padding:17px 24px;border-radius:3px;font-size:13px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;text-decoration:none;font-family:'Inter',sans-serif}
+.tv-cta-sub{text-align:center;font-size:11px;color:#aaa;margin:10px 0 0;letter-spacing:0.04em}
+.tv-divider{height:0.5px;background:#e5e0dc}
+.tv-gallery{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px}
+.tv-gallery-item{aspect-ratio:1/1;overflow:hidden;background:#f0ece9}
+.tv-gallery-item img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.tv-footer{padding:20px 28px;text-align:center}
+.tv-footer-brand{font-family:'Cormorant Garamond',serif;font-size:14px;letter-spacing:0.2em;color:#888;text-transform:uppercase}
+.tv-urgency{display:inline-flex;align-items:center;gap:6px;background:#fdf6f3;border:0.5px solid #e0cdc5;border-radius:2px;padding:7px 14px;font-size:11.5px;color:#a47864;letter-spacing:0.06em;margin:0 0 24px;font-weight:500}
+.tv-dot{width:6px;height:6px;border-radius:50%;background:#a47864;animation:pulse 1.8s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+</style>
+</head>
+<body>
+<header class="tv-header">
+  <p class="tv-logo">Trevidinhas Modas</p>
+  <p class="tv-tagline">Lançamento oficial</p>
+</header>
+<div class="tv-hero">
+  <img src="https://lh3.googleusercontent.com/d/1R51iu4Sm7FejsACBnfIRU4Eb4c_yQYKA" alt="Modelo Trevidinhas Modas">
+  <div class="tv-hero-overlay">
+    <p class="tv-hero-label">Acesso antecipado</p>
+    <h1 class="tv-hero-title">Seja VIP<br>antes de todo mundo</h1>
+  </div>
+</div>
+<div class="tv-body">
+  <p class="tv-main-copy">Nossa loja está chegando — e você pode ser uma das primeiras a saber de tudo.</p>
+  <div class="tv-urgency">
+    <span class="tv-dot"></span>
+    Vagas limitadas para o Grupo VIP
+  </div>
+  <p class="tv-sub-copy">Entre agora para o nosso Grupo Exclusivo no WhatsApp e garanta acesso antecipado ao nosso lançamento com as melhores condições.</p>
+  <ul class="tv-benefits">
+    <li>Ofertas exclusivas antes de abrir para o público</li>
+    <li>Novidades e lançamentos com acesso antecipado</li>
+    <li>Condições especiais só para membros VIP</li>
+  </ul>
+  <a class="tv-cta-btn" href="https://chat.whatsapp.com/H7kvPeXC57AIvnWyQgorIh?s=cl&p=i&mlu=2&amv=0" target="_blank">Entrar no Grupo VIP</a>
+  <p class="tv-cta-sub">Acesso gratuito · Sai quando quiser</p>
+</div>
+<div class="tv-divider"></div>
+<div class="tv-gallery">
+  <div class="tv-gallery-item"><img src="https://lh3.googleusercontent.com/d/1eWywZ5S5Ldu2U4j4kBlukeXnmuOWoh_T" alt=""></div>
+  <div class="tv-gallery-item"><img src="https://lh3.googleusercontent.com/d/12OFCK9PxfAUN8x06ewBVBX4TlaCsVvoT" alt=""></div>
+  <div class="tv-gallery-item"><img src="https://lh3.googleusercontent.com/d/1wTACnOXi7LqtnmB1l6MNWPWBo1cek1BP" alt=""></div>
+</div>
+<div class="tv-footer">
+  <p class="tv-footer-brand">Trevidinhas Modas · 2025</p>
+</div>
+</body>
+</html>
